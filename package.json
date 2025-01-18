@@ -5,12 +5,13 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kzaid0767/mvc.git"
   },
+  "type": "module",
   "keywords": [
     "mvc"
   ],
@@ -19,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/kzaid0767/mvc/issues"
   },
-  "homepage": "https://github.com/kzaid0767/mvc#readme"
+  "homepage": "https://github.com/kzaid0767/mvc#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "mongodb": "^6.12.0",
+    "mongoose": "^8.9.5"
+  }
 }
